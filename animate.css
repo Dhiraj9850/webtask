@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nameweb{
+    color: rgb(32, 236, 226);
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+.carousel-item img{
+    height: 350px;
+    margin: 0%;
+    
+}
+.container{
+    
+    display: block;
+    margin: 15px auto;
+    
+}
+.container h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+#loginbtn{
+    display: block;
+    margin: auto;
+}
+label{
+    font-size: 18px;
+    color: rgb(97, 21, 168);
+    font-weight: 600;
+}
+#emaillogo,#passlogo{
+    margin-right: 8px;
+
+}
