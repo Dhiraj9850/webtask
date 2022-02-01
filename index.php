@@ -146,7 +146,7 @@
 
   <div class="container">
     <h2>Login-Employee.com</h2>
-    <form action="index.php" method="post" onsubmit=" return validated()">
+    <form action="index.php" method="post" name="form" onsubmit=" return validated()">
       <div class="form-group">
         <label for="email"><i class="far fa-envelope" id="emaillogo"></i>Email address</label>
         <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
@@ -170,7 +170,7 @@
 
 
 
-  <!-- <script src="wow.js"></script> -->
+  <script src="wow.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
